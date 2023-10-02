@@ -1,0 +1,76 @@
+$tokens: (
+  unit: rem,
+  page: (
+    backgroundColor: white,
+    margin: 0,
+    padding: 0
+  ),
+  colors: ((
+    type: black,
+    color: #161616,
+    shades: ()
+  ), (
+    type: highlight-black,
+    color: #212121,
+    shades: ()
+  ), (
+    type: white,
+    color: #FFF,
+    shades: ()
+  ), (
+    type: white-muted,
+    color: rgba(255,255,255,0.6),
+    shades: ()
+  ), (
+    type: Blue,
+    color: #58AAE1,
+    shades: (28, 80)
+  ), (
+    type: Purple,
+    color: #7F4690,
+    shades: (28, 80)
+  )),
+  fonts: ((
+    type: main-text-regular,
+    uri: '../fonts/freesans',
+    sizes: (12, 14, 16, 18, 20)
+  ), (
+    type: main-text-bold,
+    uri: '../fonts/freesansbold',
+    sizes: (12, 14, 16, 18, 20)
+  ), (
+    type: main-text-link,
+    uri: '../fonts/freesansbold',
+    sizes: (12, 14, 16)
+  ), (
+    type: label-text,
+    uri: '../fonts/freesans',
+    sizes: (12, 14, 16, 18, 20, 22, 24, 26, 28)
+  ), (
+    type: slogan-text,
+    uri: '../fonts/bariol_italic',
+    sizes: (28)
+  )),
+  headings: (
+    type: heading,
+    uri: '../fonts/bariol_bold',
+    variant: ((
+      h1: 42
+    ), (
+      h2: 32
+    ), (
+      h3: 28
+    ), (
+      h4: 26
+    ), (
+      h5: 24
+    ), (
+      h6: 22
+    ))
+  ),
+  spacing: (
+    small: 1,
+    medium: 2,
+    large: 3
+  )
+);

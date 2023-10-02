@@ -1,0 +1,43 @@
+{
+  "name": "create-atomic-resources",
+  "version": "2.1.2",
+  "description": "Creates a scss framework for use with atomic-bomb & Storybook templates",
+  "author": "René Krewinkel",
+  "main": "bin/index.js",
+  "type": "module",
+  "keywords": [
+    "atomic design",
+    "education",
+    "react",
+    "storybook"
+  ],
+  "bin": {
+    "create-atomic-resources": "bin/index.js"
+  },
+  "scripts": {
+    "nice": "prettier -w bin/*.js",
+    "deprecate": "npm deprecate create-atomic-resources@\"<$(echo $npm_package_version|cut -d v  -f 2)\" \"Please upgrade\"",
+    "predeploy": "git add --all && git commit --allow-empty  -m $npm_package_version",
+    "deploy": "git push -u origin main",
+    "token": "json-to-scss ./src/resources/design/tokens.json ./src/resources/styles/tokens/_tokens.scss"
+  },
+  "files": [
+    "src/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReneKrewinkel/create-atomic-resources.git"
+  },
+  "license": "GPL-1.0-only",
+  "bugs": {
+    "url": "https://github.com/ReneKrewinkel/create-atomic-resources/issues"
+  },
+  "homepage": "https://github.com/ReneKrewinkel/create-atomic-resources#readme",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "shelljs": "^0.8.5",
+    "zod": "^3.19.1"
+  }
+}

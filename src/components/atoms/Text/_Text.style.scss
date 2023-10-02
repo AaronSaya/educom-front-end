@@ -1,0 +1,48 @@
+.Text {
+$backgroundColor: --bg-black;
+$textColor:--fg-white;
+$textFont:  --main-text-regular;
+
+color: var($textColor);
+background: var($backgroundColor);
+font-family:  --main-text-regular;
+
+&.small {
+  font-size: smaller;
+}
+
+&.large {
+  font-size: xx-large;
+}
+
+&[data-object-type="secondary"] {
+  color: var(--fg-black);
+  background-color: var(--bg-white);
+}
+
+  // XS - Phone
+  @media (max-width: 480px) {
+
+  }
+
+  // S - Tablet
+  @media (max-width: 768px) {
+
+  }
+
+  // M - Tablet/Laptop
+  @media (max-width: 1024px) {
+
+  }
+
+  // L - High Res
+  @media (max-width: 1200px) {
+
+  }
+
+  // XL - Ultra High Res
+  @media (min-width: 1201px) {
+
+  }
+
+}

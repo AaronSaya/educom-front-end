@@ -1,0 +1,59 @@
+.Button {
+  $primaryColor: --fg-Blue;
+  $secondaryColor: --fg-Purple;
+  $fontColor: --fg-white;
+
+  cursor: pointer;
+  color: var($fontColor);
+  background-color: var($primaryColor);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 10%;
+  border-radius: 2rem;
+  text-align: center;
+  line-height: 2rem;
+ 
+
+  &[data-object-type="primary"] {
+    background-color: var($primaryColor);
+  }
+
+  &[data-object-type="secondary"] {
+    background-color: var($secondaryColor);
+  }
+
+  &[data-object-type="tertiary"] {
+    background-color: var(--fg-black);
+    border-radius: 0%;
+  }
+
+  &.small {
+    width: 8%;
+  }
+
+  &.large {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 14%;
+  }
+
+  // XS - Phone
+  @media (max-width: 480px) {
+  }
+
+  // S - Tablet
+  @media (max-width: 768px) {
+  }
+
+  // M - Tablet/Laptop
+  @media (max-width: 1024px) {
+  }
+
+  // L - High Res
+  @media (max-width: 1200px) {
+  }
+
+  // XL - Ultra High Res
+  @media (min-width: 1201px) {
+  }
+}
