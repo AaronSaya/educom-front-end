@@ -510,12 +510,15 @@ h6 {
   color: var(--fg-white);
   background: var(--bg-black);
   font-family: --main-text-regular;
+  width: 50%;
 }
 .Text.small {
   font-size: smaller;
+  width: 25%;
 }
 .Text.large {
   font-size: xx-large;
+  width: 100%;
 }
 .Text[data-object-type=secondary] {
   color: var(--fg-black);
@@ -569,7 +572,7 @@ h6 {
   background-color: var(--fg-Blue);
   padding-left: 1rem;
   padding-right: 1rem;
-  width: 10%;
+  width: 15%;
   border-radius: 2rem;
   text-align: center;
   line-height: 2rem;
@@ -585,7 +588,7 @@ h6 {
   border-radius: 0%;
 }
 .Button.small {
-  width: 8%;
+  width: 6%;
 }
 .Button.large {
   padding-top: 2rem;
@@ -606,4 +609,85 @@ h6 {
 }
 .Logo.large {
   width: 50%;
+}
+.Backgroundimage {
+  width: 100%;
+}
+.Backgroundimage.small {
+  width: 50%;
+}
+.Backgroundimage.large {
+  width: 200%;
+}
+.Backgroundimage[data-object-type=shoosh] {
+  background-color: var(--bg-black);
+}
+.Backgroundimage[data-object-type=swoosh] {
+  background-color: var(--bg-black);
+}
+.Footer {
+  width: 100%;
+}
+.Footer.small {
+  width: 50%;
+}
+.Footer.large {
+  width: 200%;
+}
+.Label {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2px;
+  background-color: #58AAE1;
+}
+.Input {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2px;
+  font-size: 14px;
+}
+.Buttongroup {
+  display: flex;
+}
+.Formgroup {
+  padding: 10px;
+}
+.Section {
+  background-color: var(--bg-black);
+}
+.Section .card {
+  background-size: cover;
+}
+.Section .sectionImage {
+  margin-left: 15%;
+}
+.Section .card-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.Section .Content {
+  margin-top: 15%;
+}
+.Section .Image {
+  padding: 10px;
+  padding: 40px;
+  background-color: transparent;
+}
+.Section .Logo {
+  padding: 10px;
+  background-color: transparent;
+}
+.Section .Text {
+  padding: 10px;
+  width: 100%;
+  background-color: transparent;
+}
+.Section .Title {
+  padding: 10px;
+  background-color: transparent;
+}
+.Header {
+  background-color: #bb0b0b;
+}
+.Chapter .BackgroundImage {
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */

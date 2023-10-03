@@ -6,13 +6,16 @@ $textFont:  --main-text-regular;
 color: var($textColor);
 background: var($backgroundColor);
 font-family:  --main-text-regular;
+width:50%;
 
 &.small {
   font-size: smaller;
+  width:25%;
 }
 
 &.large {
   font-size: xx-large;
+  width:100%;
 }
 
 &[data-object-type="secondary"] {

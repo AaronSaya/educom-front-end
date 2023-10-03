@@ -1,0 +1,72 @@
+.Section {
+
+background-color: var(--bg-black);
+
+.card {
+  background-size: cover;
+
+}
+
+.sectionImage {
+  margin-left: 15%;
+}
+
+.card-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 10px;
+}
+
+.Content {
+margin-top: 15%;
+}
+
+.Image {
+  padding: 10px;
+  padding:40px;
+  background-color: transparent;
+}
+
+.Logo {
+  padding: 10px;
+  background-color: transparent;
+}
+
+.Text {
+  padding:10px;
+  width:100%;
+  background-color: transparent;
+}
+
+.Title {
+  padding:10px;
+  background-color: transparent;
+}
+
+
+  // XS - Phone
+  @media (max-width: 480px) {
+
+  }
+
+  // S - Tablet
+  @media (max-width: 768px) {
+
+  }
+
+  // M - Tablet/Laptop
+  @media (max-width: 1024px) {
+
+  }
+
+  // L - High Res
+  @media (max-width: 1200px) {
+
+  }
+
+  // XL - Ultra High Res
+  @media (min-width: 1201px) {
+
+  }
+
+}

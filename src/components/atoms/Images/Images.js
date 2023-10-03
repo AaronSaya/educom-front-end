@@ -10,9 +10,9 @@ const Image = (props) => {
       <div
         data-testid={props.testID}
         data-object-type={props.type ?? ""}
-        className={`Image  ${props.size} more utility classes`}
+        className={`Image  ${props.size} ${props.images} `}
       >
-        <img  src={handphoneImage} alt="HandPhoneImage" />
+        <img src={handphoneImage} alt="HandPhoneImage" />
       </div>
     );
   } else {

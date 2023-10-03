@@ -1,0 +1,14 @@
+<svg id="Group_15" data-name="Group 15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2132.919" height="657.537" viewBox="0 0 2132.919 657.537">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#58aae1"/>
+      <stop offset="1" stop-color="#7f4690"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="2132.919" height="657.537" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_14" data-name="Group 14" clip-path="url(#clip-path)">
+    <path id="Path_21" data-name="Path 21" d="M1813.989,33.361C1722.279,17.723,1618.333,0,1421.945,0S1121.611,17.723,1029.9,33.361c-85.764,14.623-159.831,27.253-318.93,27.253S477.806,47.984,392.042,33.361C300.334,17.723,196.387,0,0,0V596.922c159.1,0,233.165,12.629,318.929,27.253,91.708,15.637,195.656,33.361,392.042,33.361s300.334-17.723,392.044-33.359c85.764-14.625,159.831-27.254,318.93-27.254s233.165,12.629,318.929,27.254c91.711,15.636,195.657,33.359,392.045,33.359V60.613c-159.1,0-233.167-12.629-318.93-27.253" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

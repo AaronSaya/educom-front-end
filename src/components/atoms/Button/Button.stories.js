@@ -1,25 +1,35 @@
-import React from 'react'
-import Button from './Button'
-import ButtonMock from './Button.mock'
+import Button from '../Button'
 
-/// TODO: fix story entries
-const ButtonMeta = {
-    title: "atoms/Button",
-    component: Button,
-    argTypes: {
-        testID: { table: { disable: false } },
-        size: { name: "Size" },
-        type: { name: "Type"}
-    }
+export default {
+    title: "Atoms/Button",
+    component: Button
 }
 
-const testID = "Button-" + Math.floor(Math.random() * 90000) + 10000
-const Template = (args) => <Button {...args} />
+const Template = args => <Button {...args} />
 
-export const DefaultButton = Template.bind({})
-DefaultButton.args = {
-    testID: testID,
-    ...ButtonMock
+export const Concept = Template.bind({})
+Concept.args = {
+    size: "medium",
+    text: "Concept",
+    backgroundColor: "#58AAE1" ,
+    color: "#FFF",
+    type: "primary"
 }
 
-export default ButtonMeta
+export const Participant = Template.bind({})
+Participant.args = {
+    size: "medium",
+    text: "Participate",
+    backgroundColor: "#7F4690" ,  
+    color: "#FFF",
+    type: "secondary"
+}
+
+export const BarButton = Template.bind({})
+BarButton.args = {
+    size: "medium",
+    text: "News",
+    backgroundColor: "#000" ,
+    color: "#FFF",
+    type: "tertiary"
+}

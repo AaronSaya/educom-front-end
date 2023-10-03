@@ -2,29 +2,24 @@ import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 
 /// TODO: Define props for Button
-const Button = (props) => {
+const Button = ({ testID, type, size, onClick, text }) => {
 
-    if (props.type === 'primary') {
 
     return(
-        <div data-testid={ props.testID }
-             data-object-type={ props.type ?? ""}
-             className={ `Button ${props.size}` }>
-                Concept
+        <div
+            data-testid={testID}
+            data-object-type={type ?? ""}
+            className={`Button ${size}`}
+            onClick={onClick}
+        >
+            {text}
         </div>
     ) 
-    } else{
-        return(
-        <div data-testid={ props.testID }
-             data-object-type={ props.type ?? ""}
-             className={ `Button ${props.size}` }>
-                Participant
-        </div>
-    ) 
+ }
 
-    }
 
-}
+
+
 
 /// TODO: add more utility classes if needed!
 
@@ -41,10 +36,22 @@ const exceptionClasses = [
     "tertiary"
 ]
 
+const Text = [
+    "Concept",
+    "Participate",
+    "Training",
+    "News",
+    "Information"
+]
+
+
 Button.propTypes = {
     testID: PropTypes.string,
     type: PropTypes.oneOf(exceptionClasses),
     size: PropTypes.oneOf(sizes),
+    text: PropTypes.oneOf(Text),
+    onClick: PropTypes.func
+    
 }
 
 export default Button

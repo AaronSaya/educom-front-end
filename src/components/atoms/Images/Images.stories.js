@@ -1,10 +1,10 @@
 import React from 'react'
-import Image from './Image'
-import ImageMock from './Image.mock'
+import Image from './Images'
+import ImageMock from './Images.mock'
 
 /// TODO: fix story entries
 const ImageMeta = {
-    title: "atoms/Image",
+    title: "atoms/Images",
     component: Image,
     argTypes: {
         testID: { table: { disable: true } },

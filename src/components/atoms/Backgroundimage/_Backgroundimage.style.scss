@@ -1,0 +1,45 @@
+.Backgroundimage {
+  width: 100%;
+
+  
+  &.small {
+    width: 50%;
+  }
+
+  &.large {
+    width: 200%;
+  }
+
+  &[data-object-type="shoosh"] {
+    background-color: var(--bg-black);
+  }
+
+  &[data-object-type="swoosh"] {
+    background-color: var(--bg-black);
+  }
+  // XS - Phone
+  @media (max-width: 480px) {
+
+  }
+
+  // S - Tablet
+  @media (max-width: 768px) {
+
+  }
+
+  // M - Tablet/Laptop
+  @media (max-width: 1024px) {
+
+  }
+
+  // L - High Res
+  @media (max-width: 1200px) {
+
+  }
+
+  // XL - Ultra High Res
+  @media (min-width: 1201px) {
+
+  }
+
+}
