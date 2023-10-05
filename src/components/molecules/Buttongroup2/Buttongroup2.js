@@ -44,14 +44,14 @@ const Buttongroup2 = ({
 Buttongroup2.propTypes = {
   position: PropTypes.oneOf(["left", "center", "right"]),
   padding: PropTypes.number,
-  buttonLeft: PropTypes.objectOf({
+  buttonLeft: PropTypes.shape({
     text: PropTypes.string,
     size: PropTypes.oneOf(["small", "medium", "large"]),
     color: PropTypes.string,
     backgroundColor: PropTypes.string,
     onClick: PropTypes.func,
   }),
-  buttonRight: PropTypes.objectOf({
+  buttonRight: PropTypes.shape({
     text: PropTypes.string,
     size: PropTypes.oneOf(["small", "medium", "large"]),
     color: PropTypes.string,

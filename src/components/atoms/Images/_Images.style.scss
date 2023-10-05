@@ -26,6 +26,12 @@
     position: relative;
   }
 
+  &[data-object-type="tertiary"] {
+    background-color: var(--bg-black);
+    display: flex;
+    position: relative;
+  }
+
   // XS - Phone
   @media (max-width: 480px) {
   }

@@ -1,7 +1,24 @@
-.Buttongroup2 {
+.Topbar {
 
-display: flex;
 
+  background-color: var(--bg-black);
+
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px;
+    height: max-content;
+  }
+
+.Logo {
+  width: 35%;
+}
+
+.Button {
+  padding: 10px;
+  margin-right: 5%;
+}
   // XS - Phone
   @media (max-width: 480px) {
 

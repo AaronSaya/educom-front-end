@@ -6,5 +6,3 @@ export { default as Logo } from './Logo'
 
 export { default as Backgroundimage } from './Backgroundimage'
 export { default as Footer } from './Footer'
-export { default as Label } from './Label'
-export { default as Input } from './Input'

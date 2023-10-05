@@ -1,9 +1,11 @@
-.Section {
+.Section2 {
+
+background-color: var(--bg-black);
 
 background-color: var(--bg-black);
 
 .sectionImage {
-  margin-left: 5%;
+  margin-left: 15%;
 }
 
 .card-row {
@@ -37,8 +39,6 @@ margin-top: 15%;
   padding:10px;
   background-color: transparent;
 }
-
-
   // XS - Phone
   @media (max-width: 480px) {
 

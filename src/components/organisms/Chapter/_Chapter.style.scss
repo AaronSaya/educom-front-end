@@ -1,8 +1,6 @@
 .Chapter {
 
-.BackgroundImage {
-  position:absolute;
-}
+background-color: var(--bg-black);
 
   // XS - Phone
   @media (max-width: 480px) {
